@@ -45,7 +45,7 @@ public class SearchThread extends Thread{
         return timesValuesIsFound;
     }
 
-    public boolean isHasValueBeenFound() {
+    public boolean hasValueBeenFound() {
         return hasValueBeenFound;
     }
 

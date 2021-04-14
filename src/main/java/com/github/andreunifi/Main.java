@@ -74,7 +74,7 @@ public class Main {
                     searchThread.start();
                     searchThread.join();
                     min+=maxbound;
-                    if(searchThread.isHasValueBeenFound())
+                    if(searchThread.hasValueBeenFound())
                         System.out.println("The value has been found in thread " + String.valueOf(i) + " at the position(s): " +
                                 searchThread.getPositions().toString() + " and was found " + searchThread.getTimesValuesIsFound() + " times");
 
