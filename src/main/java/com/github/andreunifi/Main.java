@@ -62,7 +62,7 @@ public class Main {
 
     public static void multiThreadSearchValue(int numberstosearch[],int value){
 
-        //defines a interval of the array for each thread to sum the numbers.
+        //defines a interval of the array for each thread to search the numbers.
         int maxbound= GlobalVariables.N/GlobalVariables.NTH;
         int min=0;
 
