@@ -1,7 +1,7 @@
 # ThreadsExercise
 A lecture given exercise on Thread Management.
 
-Exercise 1: function multiThreadSum(
+Exercise 1: function multiThreadSum(int numbersToSum[], int finalsums[])
 
 Handles multi-thread sum 
 
